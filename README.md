@@ -157,7 +157,7 @@ Example:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-If you like this project, don't forget to give it a ⭐️!
+
 
 Feel free to check the [issues page](../../issues/).
 
@@ -167,7 +167,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-You can show your support by giving a star to this project.
+If you like this project, don't forget to give it a ⭐️!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
