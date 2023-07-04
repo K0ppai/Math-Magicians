@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.calculator-container {
+  width: 30%;
+}
+
 .display {
   text-align: right;
   padding: 20px;
@@ -17,10 +21,11 @@
 }
 
 .buttons button {
-  padding: 20px;
+  padding: 10px;
   border: 1px solid rgb(209, 209, 209);
   border-top: none;
   border-left: none;
+  cursor: pointer;
 }
 
 #root > div > div > div.buttons > button:nth-child(17) {

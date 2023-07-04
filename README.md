@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo" id="live-demo"></a>
 
-- Click here for [live]() demo.
+- Click here for [live](https://k0ppai.github.io/Math-Magicians/src) demo.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
