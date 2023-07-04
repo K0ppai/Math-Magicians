@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calculator-container {
+  width: 30%;
+}
+
+.display {
+  text-align: right;
+  padding: 20px;
+  background-color: rgb(133, 134, 148);
+  color: white;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.buttons button {
+  padding: 10px;
+  border: 1px solid rgb(209, 209, 209);
+  border-top: none;
+  border-left: none;
+  cursor: pointer;
+}
+
+#root > div > div > div.buttons > button:nth-child(17) {
+  grid-column: 1 / span 2;
+}
+
+#root > div > div > div.buttons > button:nth-child(4),
+#root > div > div > div.buttons > button:nth-child(8),
+#root > div > div > div.buttons > button:nth-child(12),
+#root > div > div > div.buttons > button:nth-child(16),
+#root > div > div > div.buttons > button:nth-child(19) {
+  background-color: rgb(245, 145, 62);
+  border-right: 1px solid rgb(191, 191, 191);
+  border-bottom: 1px solid rgb(191, 191, 191);
+}
