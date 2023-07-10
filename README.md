@@ -153,7 +153,7 @@ Example:
 ## 🔭 Future Features <a name="future-features" id="future-features"></a>
 
 - [ ] Add tests for all React components
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
