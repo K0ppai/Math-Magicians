@@ -1,23 +1,32 @@
-nav{
+nav {
   padding: 10px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0 1px 10px #6f492a;
 }
 
-h1{
+nav h1 {
   font-size: 40px;
+  color: #ff780a;
 }
 
-ul{
+ul {
   display: flex;
 }
-li{
+
+li {
   list-style: none;
   margin: 0 30px;
   font-weight: bold;
+  color: #55446a;
 }
 
-li a{
+li a {
   text-decoration: none;
+}
+
+li a:hover {
+  color: #6f492a;
+  text-decoration: underline;
 }

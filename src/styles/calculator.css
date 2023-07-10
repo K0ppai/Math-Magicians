@@ -2,21 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #301703;
 }
 
-.container{
+h1 {
+  color: #ff780a;
+}
+
+.container {
   display: flex;
   justify-content: space-between;
-  max-height: 100vh;
   margin: 0 40px;
   margin-top: 40px;
   margin-bottom: 30px;
-
 }
 
 .calculator-container {
   width: 65%;
-  height: 70vh;
+  box-shadow: 0 0 30px #e09a61;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
 .display {
@@ -31,11 +36,10 @@
 .buttons {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  height: 100%;
 }
 
 .buttons button {
-  padding: 10px;
+  padding: 25px 0;
   border: 1px solid rgb(209, 209, 209);
   border-top: none;
   border-left: none;
@@ -66,7 +70,7 @@
 .buttons > button:nth-child(8):hover,
 .buttons > button:nth-child(12):hover,
 .buttons > button:nth-child(16):hover,
-.buttons > button:nth-child(19):hover{
+.buttons > button:nth-child(19):hover {
   background-color: rgb(225, 131, 53);
   transition: 0.2s;
 }
