@@ -1,0 +1,23 @@
+nav{
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 40px;
+}
+
+ul{
+  display: flex;
+}
+li{
+  list-style: none;
+  margin: 0 30px;
+  font-weight: bold;
+}
+
+li a{
+  text-decoration: none;
+}
