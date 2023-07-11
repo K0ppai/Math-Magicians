@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo" id="live-demo"></a>
 
-- Live demo link is coming soon.
+- Live demo [link](https://koppai-math.onrender.com).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
