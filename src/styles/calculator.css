@@ -2,10 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #301703;
+}
+
+h1 {
+  color: #ff780a;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 .calculator-container {
-  width: 30%;
+  width: 65%;
+  box-shadow: 0 0 30px #e09a61;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
 .display {
@@ -14,6 +30,7 @@
   background-color: rgb(133, 134, 148);
   color: white;
   font-weight: bold;
+  font-size: 30px;
 }
 
 .buttons {
@@ -22,11 +39,17 @@
 }
 
 .buttons button {
-  padding: 10px;
+  padding: 25px 0;
   border: 1px solid rgb(209, 209, 209);
   border-top: none;
   border-left: none;
   cursor: pointer;
+  font-size: 20px;
+}
+
+.buttons button:hover {
+  background-color: rgb(211, 211, 211);
+  transition: 0.2s;
 }
 
 .buttons > button:nth-child(17) {
@@ -41,4 +64,13 @@
   background-color: rgb(245, 145, 62);
   border-right: 1px solid rgb(191, 191, 191);
   border-bottom: 1px solid rgb(191, 191, 191);
+}
+
+.buttons > button:nth-child(4):hover,
+.buttons > button:nth-child(8):hover,
+.buttons > button:nth-child(12):hover,
+.buttons > button:nth-child(16):hover,
+.buttons > button:nth-child(19):hover {
+  background-color: rgb(225, 131, 53);
+  transition: 0.2s;
 }
