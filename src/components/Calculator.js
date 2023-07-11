@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Calculator.css';
+import '../styles/calculator.css';
 import Buttons from './buttons';
 import calculate from '../logic/calculate';
 
@@ -12,11 +12,14 @@ function Calculator() {
 
   const { total, next, operation } = display;
   return (
-    <div className="calculator-container">
-      <div className="display">{next || operation || total || 0}</div>
-      <Buttons
-        handleClick={handleClick}
-      />
+    <div className="container">
+      <h1>Let&apos;s do some math!</h1>
+      <div className="calculator-container">
+        <div className="display">{next || operation || total || 0}</div>
+        <Buttons
+          handleClick={handleClick}
+        />
+      </div>
     </div>
   );
 }
