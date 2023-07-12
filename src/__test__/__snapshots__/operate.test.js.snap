@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test_the_operator_logic test_addition_positive 1`] = `"5"`;
+
+exports[`test_the_operator_logic test_addition_very_large_numbers 1`] = `"1e+50"`;
+
+exports[`test_the_operator_logic test_division_by_zero 1`] = `"Can't divide by 0."`;
+
+exports[`test_the_operator_logic test_multiplication_positive 1`] = `"6"`;
+
+exports[`test_the_operator_logic test_subtraction_positive 1`] = `"2"`;
+
+exports[`test_the_operator_logic test_unknown_operation 1`] = `"Unknown operation 'z'"`;
