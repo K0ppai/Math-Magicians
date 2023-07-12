@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing calculate function when AC button is clicked, the result should be cleared 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": null,
+}
+`;
+
+exports[`testing calculate function when next and total is 0, then it should return an empty object 1`] = `Object {}`;
+
+exports[`testing calculate function when the button is .  1`] = `
+Object {
+  "next": "0.985",
+  "operation": null,
+  "total": null,
+}
+`;
+
+exports[`testing calculate function when the button is =  1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": "5555",
+}
+`;
+
+exports[`testing calculate function when there is no operation, update next and clear the value 1`] = `
+Object {
+  "next": "5",
+  "total": null,
+}
+`;
+
+exports[`testing calculate function when user puts an operation after pressing =  1`] = `
+Object {
+  "next": null,
+  "operation": "-",
+  "total": "55",
+}
+`;
